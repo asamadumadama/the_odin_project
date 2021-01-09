@@ -1,5 +1,7 @@
 body {
     margin:0px;
+    font-family: 'Robota',sans-serif;
+    font-size:12px;
 }
 
 #navbar {
@@ -7,8 +9,7 @@ body {
     justify-content:flex-end;
     align-content: center;
     
-    font-size:12px;
-    font-family: 'Robota',sans-serif;
+    
 }
 .site {
     padding:15px 10px;
@@ -45,11 +46,29 @@ main img {
     justify-content: center;
 }
 footer {
-    background-color:#ebebeb;
+    margin-top:30px;
+    background-color:#f1f1f1;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-color:#bebebe;
+    height:25vw;
+    border-width: 0.15em;
 }
 
 #location {
-    border-style: solid;
-    border:20px;
-    border-color:#000000;
+    border-bottom-style: solid;
+    border-bottom-color: #bebebe;
+    border-width: 0.15em;        
+}
+
+#down-bar {
+    text-align: center;
+}
+
+.foot {
+    padding-top:20px;
+}
+
+a:hover {
+    text-decoration: underline;
 }
